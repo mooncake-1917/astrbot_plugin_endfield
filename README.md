@@ -226,7 +226,6 @@ astrbot_plugin_endfield/
 
 ### 2.6.0 (2026-03-21)
 - 🔧 干员面板：`/api/endfield/card/char` 与云崽一致，随请求传入 `roleId` / `serverId`（与便签同一角色上下文）
-- 🔧 干员面板：`/api/panel/char` 无可用战斗属性时，尝试 `/api/friend/char` 兜底；`friend` 系列请求携带 `X-Framework-Token`
 - 🔧 图片渲染：`render_timeout` 配置对 `page.goto` 等全流程生效，不再写死 15s
 - 🔧 抽卡分析：分页拉取全量记录，避免统计不完整
 - 🔧 签到 / 自动签到：请求携带 `role_id`、`server_id`；自动签到通知与订阅 ID 规范化、日志完善
